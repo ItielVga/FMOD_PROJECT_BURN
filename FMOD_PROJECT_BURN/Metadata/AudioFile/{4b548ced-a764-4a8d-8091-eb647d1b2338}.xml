@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{4b548ced-a764-4a8d-8091-eb647d1b2338}">
+		<property name="assetPath">
+			<value>Door - Key Turn.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.9463333333333332</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{49c233df-f0d9-4fbc-a9af-a22d2ece23f9}</destination>
+		</relationship>
+	</object>
+</objects>

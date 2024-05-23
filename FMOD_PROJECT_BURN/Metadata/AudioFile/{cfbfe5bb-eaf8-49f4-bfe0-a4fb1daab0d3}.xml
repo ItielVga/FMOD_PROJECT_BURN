@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{cfbfe5bb-eaf8-49f4-bfe0-a4fb1daab0d3}">
+		<property name="assetPath">
+			<value>Musica_ENEMY_STEMS SYNH LAYER.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>117.288</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{49c233df-f0d9-4fbc-a9af-a22d2ece23f9}</destination>
+		</relationship>
+	</object>
+</objects>

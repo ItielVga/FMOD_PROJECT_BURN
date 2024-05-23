@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{a1d61975-d3d7-44f4-bf47-a7580536a90c}">
+		<property name="assetPath">
+			<value>Musica_ENEMY_STEMS Shakers.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>134.54400000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{49c233df-f0d9-4fbc-a9af-a22d2ece23f9}</destination>
+		</relationship>
+	</object>
+</objects>

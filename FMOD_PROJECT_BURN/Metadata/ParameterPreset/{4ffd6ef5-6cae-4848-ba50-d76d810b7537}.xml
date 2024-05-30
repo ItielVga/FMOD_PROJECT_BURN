@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{4ffd6ef5-6cae-4848-ba50-d76d810b7537}">
+		<property name="note" />
+		<property name="name">
+			<value>DialogoNumero</value>
+		</property>
+		<relationship name="folder">
+			<destination>{95a5964e-0a86-4cec-b6ed-d9a509dd94c4}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{4562218a-7b79-4843-b868-cf1a42e451bc}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{4562218a-7b79-4843-b868-cf1a42e451bc}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>13</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>

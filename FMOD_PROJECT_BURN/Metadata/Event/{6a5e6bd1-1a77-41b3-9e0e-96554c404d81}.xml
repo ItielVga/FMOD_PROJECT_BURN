@@ -66,6 +66,12 @@
 		<property name="maxVoices">
 			<value>2</value>
 		</property>
+		<property name="minimumDistance">
+			<value>0.5</value>
+		</property>
+		<property name="maximumDistance">
+			<value>3</value>
+		</property>
 	</object>
 	<object class="MarkerTrack" id="{09e2e32d-31ef-485b-b60b-ae7785e6182c}" />
 	<object class="Timeline" id="{951fa827-4a98-46cf-b72a-dd762e0f1532}">

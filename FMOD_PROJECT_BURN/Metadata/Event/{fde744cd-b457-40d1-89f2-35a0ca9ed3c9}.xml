@@ -8,7 +8,7 @@
 			<value>CerrarPuertaElectrica</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a8a3f2a5-d1aa-4af7-9eec-20f6f9053dbf}</destination>
@@ -99,6 +99,7 @@
 	<object class="MixerBusEffectChain" id="{708deca5-a430-4509-9a79-c108e385bfc6}">
 		<relationship name="effects">
 			<destination>{8ca4611b-13b6-4e30-8ebd-b678b5292840}</destination>
+			<destination>{7e365371-dc67-41a1-b95f-7bbff1bb4b63}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{95dc8852-3383-4951-9534-35e054213c27}" />
@@ -109,4 +110,5 @@
 	</object>
 	<object class="MixerBusFader" id="{18c78f5c-4a2c-4561-affd-0a603b058edb}" />
 	<object class="MixerBusFader" id="{8ca4611b-13b6-4e30-8ebd-b678b5292840}" />
+	<object class="SpatialiserEffect" id="{7e365371-dc67-41a1-b95f-7bbff1bb4b63}" />
 </objects>

@@ -8,7 +8,7 @@
 			<value>AgarrarTuberia</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a8a3f2a5-d1aa-4af7-9eec-20f6f9053dbf}</destination>
@@ -65,7 +65,11 @@
 			<destination>{ce037a2c-938e-495e-aad4-41de4047d01e}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{78b9e975-aa4b-4ecb-a608-b3d9f129bfef}" />
+	<object class="EventAutomatableProperties" id="{78b9e975-aa4b-4ecb-a608-b3d9f129bfef}">
+		<property name="maxVoices">
+			<value>5</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{3908f08a-92b1-4cb2-a374-a87411927c09}" />
 	<object class="GroupTrack" id="{66833c38-7c88-4dab-a04e-1bebca62cb40}">
 		<relationship name="mixerGroup">
@@ -123,10 +127,14 @@
 			<destination>{2f0cddd6-a4ca-4a26-9476-95ed1b25f781}</destination>
 			<destination>{d4284662-4a4f-4156-9fe0-a335c48c4a7e}</destination>
 			<destination>{df0a6ef9-162b-4a85-b9b5-c24cccaa360c}</destination>
+			<destination>{12316a49-0332-43f5-b251-4cc3503ce997}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4e7b7d4e-c320-45cb-b183-4f1ffda2a59c}" />
 	<object class="SingleSound" id="{8e02dab6-dc14-4393-8ef8-06db82c7f4bc}">
+		<relationship name="modulators">
+			<destination>{701c2cec-4d47-4bff-a4ab-9c599227df67}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{b208cce4-a605-4109-99e7-f8955b25a4c8}</destination>
 		</relationship>
@@ -150,6 +158,15 @@
 		</property>
 		<property name="earlyDelay">
 			<value>29</value>
+		</property>
+	</object>
+	<object class="SpatialiserEffect" id="{12316a49-0332-43f5-b251-4cc3503ce997}" />
+	<object class="RandomizerModulator" id="{701c2cec-4d47-4bff-a4ab-9c599227df67}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>4.16666698</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{363b6b2f-0f66-4c59-9c29-d885fc53af6c}" />

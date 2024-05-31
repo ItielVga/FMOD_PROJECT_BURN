@@ -8,7 +8,7 @@
 			<value>Dardo</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a8a3f2a5-d1aa-4af7-9eec-20f6f9053dbf}</destination>
@@ -99,6 +99,7 @@
 	<object class="MixerBusEffectChain" id="{8fbf8477-e7e7-4405-b17a-df2ecae7792f}">
 		<relationship name="effects">
 			<destination>{803abc73-0715-4929-9647-694e68f525b7}</destination>
+			<destination>{d59d08d2-e5f1-4644-871c-582a79e128a1}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8f11f1e0-64c2-4763-855a-878f75503a9d}" />
@@ -109,4 +110,5 @@
 	</object>
 	<object class="MixerBusFader" id="{0013c440-795f-4631-aead-934c51bb45f0}" />
 	<object class="MixerBusFader" id="{803abc73-0715-4929-9647-694e68f525b7}" />
+	<object class="SpatialiserEffect" id="{d59d08d2-e5f1-4644-871c-582a79e128a1}" />
 </objects>

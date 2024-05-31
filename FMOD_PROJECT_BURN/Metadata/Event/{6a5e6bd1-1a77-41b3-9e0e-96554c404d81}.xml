@@ -8,7 +8,7 @@
 			<value>Escaleras</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a8a3f2a5-d1aa-4af7-9eec-20f6f9053dbf}</destination>
@@ -62,7 +62,11 @@
 			<destination>{ce037a2c-938e-495e-aad4-41de4047d01e}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{b2c4c8d8-0f86-4a18-9670-f4545f2a8f29}" />
+	<object class="EventAutomatableProperties" id="{b2c4c8d8-0f86-4a18-9670-f4545f2a8f29}">
+		<property name="maxVoices">
+			<value>2</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{09e2e32d-31ef-485b-b60b-ae7785e6182c}" />
 	<object class="Timeline" id="{951fa827-4a98-46cf-b72a-dd762e0f1532}">
 		<property name="isProxyEnabled">
@@ -99,6 +103,7 @@
 	<object class="MixerBusEffectChain" id="{a15c616d-22d2-415f-9456-31466cee4055}">
 		<relationship name="effects">
 			<destination>{b862db57-eeaf-4154-8725-e5141c51f797}</destination>
+			<destination>{549ef4ac-9505-4ba7-a72d-1f708be47015}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b3f9ef8b-3541-4868-9415-ca5ce876e7d4}" />
@@ -116,6 +121,7 @@
 	</object>
 	<object class="MixerBusFader" id="{e11fffee-7e70-4259-ada5-dbcc0d79bd7d}" />
 	<object class="MixerBusFader" id="{b862db57-eeaf-4154-8725-e5141c51f797}" />
+	<object class="SpatialiserEffect" id="{549ef4ac-9505-4ba7-a72d-1f708be47015}" />
 	<object class="SingleSound" id="{a31b58bf-1b03-4eaf-ae1b-f70492a56525}">
 		<relationship name="audioFile">
 			<destination>{ee66ca5c-2761-4fe6-b855-f5519dd9b3e6}</destination>

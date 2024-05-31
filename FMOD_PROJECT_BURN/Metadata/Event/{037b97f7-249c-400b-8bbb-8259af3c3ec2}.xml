@@ -8,7 +8,7 @@
 			<value>LamparaZumbido</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{f1363bfe-030f-47b2-9e96-db2fc2507076}</destination>
@@ -59,7 +59,17 @@
 			<destination>{ce037a2c-938e-495e-aad4-41de4047d01e}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{f2cfeed1-8f5c-4e50-b5b5-a8b06a3ffe86}" />
+	<object class="EventAutomatableProperties" id="{f2cfeed1-8f5c-4e50-b5b5-a8b06a3ffe86}">
+		<property name="isPersistent">
+			<value>true</value>
+		</property>
+		<property name="maxVoices">
+			<value>10</value>
+		</property>
+		<property name="voiceStealing">
+			<value>4</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{cf3014b5-7501-463d-a024-975ca2de7012}" />
 	<object class="GroupTrack" id="{f0bb5716-d781-4ea9-940a-fead25175018}">
 		<relationship name="modules">
@@ -136,6 +146,7 @@
 	<object class="MixerBusEffectChain" id="{40fef846-5a58-4130-9063-6ed3fa80a248}">
 		<relationship name="effects">
 			<destination>{dd5fc90c-4e51-440f-aa0f-76550cf8ce10}</destination>
+			<destination>{4685451f-9f54-472f-ae1c-76b677896083}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{97b7852e-c1f6-4c9a-bce8-7dae91bbbb50}" />
@@ -147,5 +158,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{aa9207dc-7f62-4abb-8474-c32c9ed5c44c}" />
 	<object class="MixerBusFader" id="{dd5fc90c-4e51-440f-aa0f-76550cf8ce10}" />
+	<object class="SpatialiserEffect" id="{4685451f-9f54-472f-ae1c-76b677896083}" />
 	<object class="MixerBusFader" id="{ba45826b-16d7-408e-9099-2a3b2bcb8563}" />
 </objects>

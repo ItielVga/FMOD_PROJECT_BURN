@@ -8,7 +8,7 @@
 			<value>WhooshDardoGranada</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a8a3f2a5-d1aa-4af7-9eec-20f6f9053dbf}</destination>
@@ -62,7 +62,11 @@
 			<destination>{ce037a2c-938e-495e-aad4-41de4047d01e}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{c71d5182-6ad2-4e45-a009-c7540d49631a}" />
+	<object class="EventAutomatableProperties" id="{c71d5182-6ad2-4e45-a009-c7540d49631a}">
+		<property name="maxVoices">
+			<value>2</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{29dba5b9-3c5b-4733-a7cd-8c1c2ede9769}" />
 	<object class="Timeline" id="{a9632cfd-98b6-4414-856f-7c05fab8ed9a}">
 		<property name="isProxyEnabled">
@@ -99,6 +103,7 @@
 	<object class="MixerBusEffectChain" id="{76676176-c320-43ba-b614-7b46b0587e33}">
 		<relationship name="effects">
 			<destination>{6844b7b6-83ca-49f1-aa23-ffdda046b716}</destination>
+			<destination>{c8f5dc5d-25d6-4b18-a341-3d21522ad852}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{14c6fe13-c668-4475-9bdd-f3db60231686}" />
@@ -109,4 +114,5 @@
 	</object>
 	<object class="MixerBusFader" id="{90f68264-5a23-4659-a70c-3efa5dcbbcaf}" />
 	<object class="MixerBusFader" id="{6844b7b6-83ca-49f1-aa23-ffdda046b716}" />
+	<object class="SpatialiserEffect" id="{c8f5dc5d-25d6-4b18-a341-3d21522ad852}" />
 </objects>

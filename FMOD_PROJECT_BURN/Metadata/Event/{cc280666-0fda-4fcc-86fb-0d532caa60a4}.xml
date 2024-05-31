@@ -8,7 +8,7 @@
 			<value>Laser</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a8a3f2a5-d1aa-4af7-9eec-20f6f9053dbf}</destination>
@@ -99,6 +99,7 @@
 	<object class="MixerBusEffectChain" id="{0396c184-b8e5-420b-9cb3-49d5285884a2}">
 		<relationship name="effects">
 			<destination>{78fe18c2-0796-4971-a46e-ed4b373b44bf}</destination>
+			<destination>{7ad9c7f8-ef92-4c72-987a-845c2471a4bc}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4eefad0c-ee68-43b1-bdae-590251df3811}" />
@@ -109,4 +110,5 @@
 	</object>
 	<object class="MixerBusFader" id="{8837f692-386e-4edd-9ac1-06dcb9f48ece}" />
 	<object class="MixerBusFader" id="{78fe18c2-0796-4971-a46e-ed4b373b44bf}" />
+	<object class="SpatialiserEffect" id="{7ad9c7f8-ef92-4c72-987a-845c2471a4bc}" />
 </objects>

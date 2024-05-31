@@ -8,7 +8,7 @@
 			<value>ActivarGranadaEMP</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a8a3f2a5-d1aa-4af7-9eec-20f6f9053dbf}</destination>
@@ -62,7 +62,11 @@
 			<destination>{ce037a2c-938e-495e-aad4-41de4047d01e}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{043532c7-ea41-4231-99f9-787bec4655bf}" />
+	<object class="EventAutomatableProperties" id="{043532c7-ea41-4231-99f9-787bec4655bf}">
+		<property name="maxVoices">
+			<value>3</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{6b1133fc-2945-4ef6-826e-d38c706274d8}" />
 	<object class="Timeline" id="{36189291-1296-438f-8f96-522203072177}">
 		<property name="isProxyEnabled">
@@ -99,6 +103,7 @@
 	<object class="MixerBusEffectChain" id="{dc6fe70c-5700-4f9d-983b-f3f9d8af8950}">
 		<relationship name="effects">
 			<destination>{8a565a0d-9783-4531-a3c0-2df6d3e53e89}</destination>
+			<destination>{37250162-74ef-4cb6-89dc-b73a4d2056c9}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{92b2708f-b755-42a6-ba8c-1819b1a230f0}" />
@@ -109,4 +114,5 @@
 	</object>
 	<object class="MixerBusFader" id="{00193ffe-7971-4098-9bd4-efbd25bfc1d1}" />
 	<object class="MixerBusFader" id="{8a565a0d-9783-4531-a3c0-2df6d3e53e89}" />
+	<object class="SpatialiserEffect" id="{37250162-74ef-4cb6-89dc-b73a4d2056c9}" />
 </objects>

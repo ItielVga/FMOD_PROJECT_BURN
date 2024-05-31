@@ -8,7 +8,7 @@
 			<value>CortoCircuito</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a8a3f2a5-d1aa-4af7-9eec-20f6f9053dbf}</destination>
@@ -99,6 +99,7 @@
 	<object class="MixerBusEffectChain" id="{dd545107-49b4-4ee5-916d-69fc367d9f73}">
 		<relationship name="effects">
 			<destination>{08321613-5f8e-4e9a-a5a6-311e2776b8b9}</destination>
+			<destination>{f7614243-6015-4060-8cd4-66d6ed985a65}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{53f674b1-0a56-4a7d-ae2c-ccc43dd1d794}" />
@@ -109,4 +110,5 @@
 	</object>
 	<object class="MixerBusFader" id="{5d33c4b6-5364-4fc0-8800-6ca5acd0d855}" />
 	<object class="MixerBusFader" id="{08321613-5f8e-4e9a-a5a6-311e2776b8b9}" />
+	<object class="SpatialiserEffect" id="{f7614243-6015-4060-8cd4-66d6ed985a65}" />
 </objects>

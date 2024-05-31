@@ -8,7 +8,7 @@
 			<value>GoteoTuberia</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{f1363bfe-030f-47b2-9e96-db2fc2507076}</destination>
@@ -100,6 +100,7 @@
 		<relationship name="effects">
 			<destination>{d7f21c53-e069-4fc9-a90e-12f6807191c6}</destination>
 			<destination>{df2d5920-cbd2-4589-a9df-963852707a0e}</destination>
+			<destination>{14933d3f-1b23-4e47-9a9f-f68ffe7dae30}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{077ebcff-a555-4f2e-9528-bce7e8a3c048}" />
@@ -122,6 +123,7 @@
 			<value>1700</value>
 		</property>
 	</object>
+	<object class="SpatialiserEffect" id="{14933d3f-1b23-4e47-9a9f-f68ffe7dae30}" />
 	<object class="SingleSound" id="{d36a0ea2-09cc-44b7-b4bb-cd39ec41de3a}">
 		<relationship name="audioFile">
 			<destination>{09fa9d4e-168f-4cca-9ee2-f3d7201fb700}</destination>

@@ -8,7 +8,7 @@
 			<value>ExplosiónGranada</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a8a3f2a5-d1aa-4af7-9eec-20f6f9053dbf}</destination>
@@ -62,7 +62,11 @@
 			<destination>{ce037a2c-938e-495e-aad4-41de4047d01e}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{40e95364-1455-4a48-bc25-af1c712d8faa}" />
+	<object class="EventAutomatableProperties" id="{40e95364-1455-4a48-bc25-af1c712d8faa}">
+		<property name="maxVoices">
+			<value>2</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{7fb2bc6b-3de8-4565-b503-7f82f86625db}" />
 	<object class="Timeline" id="{8d5932d1-b23e-4919-8fd4-32d360a951cc}">
 		<property name="isProxyEnabled">
@@ -99,15 +103,16 @@
 	<object class="MixerBusEffectChain" id="{a3868d11-cf62-4b65-b697-84b62cd5189f}">
 		<relationship name="effects">
 			<destination>{52ec2a76-200a-4d00-8514-a2e0759fa14c}</destination>
+			<destination>{8add6b76-6493-4b5d-bd48-55b9f11399c1}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{49766c06-768c-40c0-8b76-fd2e803d6e18}" />
 	<object class="SingleSound" id="{69799f1a-2f40-48d6-a862-467a6ec4e0c1}">
-		<property name="name" />
 		<relationship name="audioFile">
 			<destination>{f9d867a9-4bde-4031-9eba-b912edf647bf}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{fca11518-39d7-4fc8-878c-c8806259c954}" />
 	<object class="MixerBusFader" id="{52ec2a76-200a-4d00-8514-a2e0759fa14c}" />
+	<object class="SpatialiserEffect" id="{8add6b76-6493-4b5d-bd48-55b9f11399c1}" />
 </objects>

@@ -8,7 +8,7 @@
 			<value>ArrastrarseMetal</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a8a3f2a5-d1aa-4af7-9eec-20f6f9053dbf}</destination>
@@ -101,6 +101,7 @@
 			<destination>{54709f09-dbdc-4626-8412-565819358141}</destination>
 			<destination>{24d0a3d8-cc8b-437e-83a4-4ba5bc0f2c44}</destination>
 			<destination>{0a40af6f-5720-44f2-b49e-73c786b5bc7d}</destination>
+			<destination>{799955ed-3082-4151-8114-081c87bfc427}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{90cfb8d4-bb32-408d-80b1-b070839797c6}" />
@@ -130,6 +131,7 @@
 		</property>
 	</object>
 	<object class="SFXReverbEffect" id="{0a40af6f-5720-44f2-b49e-73c786b5bc7d}" />
+	<object class="SpatialiserEffect" id="{799955ed-3082-4151-8114-081c87bfc427}" />
 	<object class="SingleSound" id="{afd566b1-63bf-4031-a2ae-90adc7a7e266}">
 		<relationship name="audioFile">
 			<destination>{1e9dcdf2-da7e-4931-8288-a860e91c7fd4}</destination>

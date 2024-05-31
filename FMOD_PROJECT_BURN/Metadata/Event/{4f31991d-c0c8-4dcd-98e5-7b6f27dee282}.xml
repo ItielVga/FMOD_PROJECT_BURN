@@ -8,7 +8,7 @@
 			<value>LasersAzules</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a8a3f2a5-d1aa-4af7-9eec-20f6f9053dbf}</destination>
@@ -62,7 +62,17 @@
 			<destination>{ce037a2c-938e-495e-aad4-41de4047d01e}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{034af669-0708-4864-b603-79f024fd9530}" />
+	<object class="EventAutomatableProperties" id="{034af669-0708-4864-b603-79f024fd9530}">
+		<property name="isPersistent">
+			<value>true</value>
+		</property>
+		<property name="maxVoices">
+			<value>10</value>
+		</property>
+		<property name="voiceStealing">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{552e65eb-5eae-4844-8cde-1ec99a1eccc1}" />
 	<object class="Timeline" id="{74a8be10-b0c8-4b69-aa12-ce7d2add466a}">
 		<property name="isProxyEnabled">
@@ -99,6 +109,7 @@
 	<object class="MixerBusEffectChain" id="{f5570aff-4f65-48fa-a6dd-4e865750ad4f}">
 		<relationship name="effects">
 			<destination>{2d2a4627-6b03-4451-8a61-25ac4958764c}</destination>
+			<destination>{2e4e7778-9c54-4686-b2f0-1a401a896070}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0212bb20-15e5-4a2a-89c4-8c43c8cc8cfc}" />
@@ -109,4 +120,5 @@
 	</object>
 	<object class="MixerBusFader" id="{8a79adc4-0ecc-47b9-973e-caf05d610486}" />
 	<object class="MixerBusFader" id="{2d2a4627-6b03-4451-8a61-25ac4958764c}" />
+	<object class="SpatialiserEffect" id="{2e4e7778-9c54-4686-b2f0-1a401a896070}" />
 </objects>

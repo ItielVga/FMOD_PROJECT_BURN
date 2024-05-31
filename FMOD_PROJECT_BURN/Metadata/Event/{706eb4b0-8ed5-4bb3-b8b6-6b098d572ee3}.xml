@@ -8,7 +8,7 @@
 			<value>AbrirPuertaElectrica</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a8a3f2a5-d1aa-4af7-9eec-20f6f9053dbf}</destination>
@@ -62,7 +62,11 @@
 			<destination>{ce037a2c-938e-495e-aad4-41de4047d01e}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{1e560491-d270-4691-b326-a375a2114cfd}" />
+	<object class="EventAutomatableProperties" id="{1e560491-d270-4691-b326-a375a2114cfd}">
+		<property name="maxVoices">
+			<value>2</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{21fdcc39-46a5-4037-b7a4-2a84a92fc9a6}" />
 	<object class="Timeline" id="{a12b64c4-7baf-414d-a584-b6afc97f8e09}">
 		<property name="isProxyEnabled">
@@ -99,6 +103,7 @@
 	<object class="MixerBusEffectChain" id="{09905a35-ceba-4cfb-b703-559acf28810b}">
 		<relationship name="effects">
 			<destination>{604700d9-539e-4369-8be1-fb2e33da099e}</destination>
+			<destination>{4ae291b5-ac55-468d-a0f4-9dd015be64b5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b2dfb0e6-75cd-4072-94e9-2b1de0665f6b}" />
@@ -109,4 +114,5 @@
 	</object>
 	<object class="MixerBusFader" id="{2a20ef07-9560-42ff-8612-1fea5ed8c5d3}" />
 	<object class="MixerBusFader" id="{604700d9-539e-4369-8be1-fb2e33da099e}" />
+	<object class="SpatialiserEffect" id="{4ae291b5-ac55-468d-a0f4-9dd015be64b5}" />
 </objects>

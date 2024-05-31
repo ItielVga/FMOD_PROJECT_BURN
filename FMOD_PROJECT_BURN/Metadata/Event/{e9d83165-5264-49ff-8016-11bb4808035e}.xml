@@ -8,7 +8,7 @@
 			<value>GirarOmnitrix</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a8a3f2a5-d1aa-4af7-9eec-20f6f9053dbf}</destination>
@@ -59,7 +59,11 @@
 			<destination>{ce037a2c-938e-495e-aad4-41de4047d01e}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{45ced96f-4acb-426d-a934-1dcd368079da}" />
+	<object class="EventAutomatableProperties" id="{45ced96f-4acb-426d-a934-1dcd368079da}">
+		<property name="maxVoices">
+			<value>2</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{20659d59-f8b6-4ccb-a7c5-1f6c22fa8f6f}" />
 	<object class="GroupTrack" id="{b677e71d-9d34-44b7-ad0e-78d9d4aef945}">
 		<relationship name="modules">
@@ -113,6 +117,7 @@
 	<object class="MixerBusEffectChain" id="{f759c83e-0a45-4b9e-9c19-3380e5d6108f}">
 		<relationship name="effects">
 			<destination>{022bd0f3-d96a-4c44-b101-5e9238e5835f}</destination>
+			<destination>{15b7b1af-2ed8-4f88-bb66-f0ce7d11fa98}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f326bed7-e005-4d47-a23b-54b0e3bf512d}" />
@@ -124,5 +129,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{297b875e-77e0-4407-9833-c7c312bda850}" />
 	<object class="MixerBusFader" id="{022bd0f3-d96a-4c44-b101-5e9238e5835f}" />
+	<object class="SpatialiserEffect" id="{15b7b1af-2ed8-4f88-bb66-f0ce7d11fa98}" />
 	<object class="MixerBusFader" id="{1493168b-ef3b-4992-b29d-d288682a1960}" />
 </objects>

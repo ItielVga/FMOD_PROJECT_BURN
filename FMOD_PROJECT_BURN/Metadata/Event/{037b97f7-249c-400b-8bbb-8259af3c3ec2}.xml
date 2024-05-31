@@ -56,7 +56,7 @@
 			<destination>{d8dc215e-ac40-400c-ae5f-7e4ebc1022d4}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{ce037a2c-938e-495e-aad4-41de4047d01e}</destination>
+			<destination>{dcd27634-e0bf-49b4-adb2-fac9a65fb814}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{f2cfeed1-8f5c-4e50-b5b5-a8b06a3ffe86}">
@@ -68,6 +68,9 @@
 		</property>
 		<property name="voiceStealing">
 			<value>4</value>
+		</property>
+		<property name="maximumDistance">
+			<value>6</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{cf3014b5-7501-463d-a024-975ca2de7012}" />
@@ -113,9 +116,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{b01b2479-61fa-4333-af4e-b7a222f8c658}">
-		<property name="volume">
-			<value>1</value>
-		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -131,10 +131,10 @@
 	</object>
 	<object class="LoopRegion" id="{fb5e0af7-4918-4513-b35d-7a5d0901af29}">
 		<property name="position">
-			<value>0</value>
+			<value>0.10000000000000001</value>
 		</property>
 		<property name="length">
-			<value>4.2000000000000002</value>
+			<value>3.3000000000000003</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{42fcbf57-633b-4d6a-afb3-2ae653789056}</destination>

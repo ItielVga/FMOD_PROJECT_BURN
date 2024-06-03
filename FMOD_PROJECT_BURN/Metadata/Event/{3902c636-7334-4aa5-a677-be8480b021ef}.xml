@@ -5,7 +5,7 @@
 			<value>MUSIC_TABERNA</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{dc9769d3-7c66-4ace-b2a0-749d81f675a8}</destination>
@@ -55,7 +55,7 @@
 			<destination>{0da70368-fe80-45be-a7e0-50198934d6ba}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{95994a2b-e598-49e4-8b45-3fba91955cef}</destination>
+			<destination>{f249f2a1-d3ef-43e7-874b-19c450b4b98f}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{d81b2950-e97d-4796-8faa-0314886ab068}">
@@ -166,6 +166,7 @@
 		<relationship name="effects">
 			<destination>{8b52f7e2-53a1-4b0d-b249-683202515482}</destination>
 			<destination>{ffeb3e82-ecb5-4994-8e13-21ff2f061355}</destination>
+			<destination>{09e10e54-2c4a-400f-be9e-bfce01785075}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{3c894395-2d39-4972-b0f9-1cb67a7c8668}" />
@@ -200,6 +201,11 @@
 		</property>
 		<property name="wetLevel">
 			<value>-19</value>
+		</property>
+	</object>
+	<object class="SpatialiserEffect" id="{09e10e54-2c4a-400f-be9e-bfce01785075}">
+		<property name="panBlend">
+			<value>0.949999988</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{854eb806-4c18-4769-8203-3ac01ea2e975}">

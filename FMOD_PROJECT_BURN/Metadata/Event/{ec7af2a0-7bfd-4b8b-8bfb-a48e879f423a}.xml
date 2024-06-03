@@ -8,7 +8,7 @@
 			<value>AmbienteTaberna</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{f1363bfe-030f-47b2-9e96-db2fc2507076}</destination>
@@ -59,7 +59,14 @@
 			<destination>{dcd27634-e0bf-49b4-adb2-fac9a65fb814}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{9e8e85ef-5c58-40e5-adeb-e4fa58d1cd6b}" />
+	<object class="EventAutomatableProperties" id="{9e8e85ef-5c58-40e5-adeb-e4fa58d1cd6b}">
+		<property name="isPersistent">
+			<value>true</value>
+		</property>
+		<property name="voiceStealing">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{d82bb3d4-5de5-44b6-b78f-3a58470b3a1e}" />
 	<object class="GroupTrack" id="{5e391091-97f3-4007-a501-81a25ab71a16}">
 		<relationship name="modules">
@@ -78,6 +85,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{47d0131c-4eb1-4a50-87b8-a137217d8a1f}">
+		<property name="volume">
+			<value>3</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{d0697b6d-9424-4f10-8799-34bf1b994c5e}</destination>
 		</relationship>
@@ -133,6 +143,7 @@
 	<object class="MixerBusEffectChain" id="{d0697b6d-9424-4f10-8799-34bf1b994c5e}">
 		<relationship name="effects">
 			<destination>{a3b820de-eefa-4c77-8d9c-dc4007bc5091}</destination>
+			<destination>{0c29ca0a-c8c5-4fbd-ab73-f5f7e32a2537}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d61d6e12-7aaf-4362-97f7-ef613760dcc1}" />
@@ -144,5 +155,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{c5056f99-5986-4a3d-a4b3-7afc07d7bbe3}" />
 	<object class="MixerBusFader" id="{a3b820de-eefa-4c77-8d9c-dc4007bc5091}" />
+	<object class="SpatialiserEffect" id="{0c29ca0a-c8c5-4fbd-ab73-f5f7e32a2537}" />
 	<object class="MixerBusFader" id="{f7aaf47c-8087-4a5e-9428-6cc7cbc5bb8e}" />
 </objects>

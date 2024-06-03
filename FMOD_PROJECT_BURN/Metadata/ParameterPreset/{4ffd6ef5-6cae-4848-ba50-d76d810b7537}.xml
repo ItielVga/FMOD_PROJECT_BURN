@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="ParameterPreset" id="{4ffd6ef5-6cae-4848-ba50-d76d810b7537}">
-		<property name="note" />
 		<property name="name">
 			<value>DialogoNumero</value>
 		</property>
@@ -20,7 +19,7 @@
 			<value>1</value>
 		</property>
 		<property name="maximum">
-			<value>13</value>
+			<value>16</value>
 		</property>
 		<property name="initialValue">
 			<value>1</value>

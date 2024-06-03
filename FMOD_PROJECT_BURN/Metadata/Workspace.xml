@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Workspace" id="{625a47c1-7f6b-4afa-ad89-56f3d1d1f32d}">
+		<property name="builtBanksOutputDirectory">
+			<value>../../RealZenith/ZenithOne/Assets/FMOD</value>
+		</property>
 		<relationship name="masterEventFolder">
 			<destination>{b94f88d7-2133-48ed-a5d8-e9358aee78f0}</destination>
 		</relationship>

@@ -33,6 +33,7 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{13d6970c-9d70-402c-8796-09110d69636b}</destination>
+			<destination>{0d50f8e3-ccd7-4e6f-82b8-5ff4f2f89c4d}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{edf7fb69-c40c-438f-bf21-e375e4055111}</destination>
@@ -60,18 +61,12 @@
 			<destination>{21c63297-e612-44b8-9ec2-8a8d9e18f444}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6b6cc6b4-2220-4c79-b237-2b3f430e3f7f}</destination>
+			<destination>{deec873e-a69c-41cb-bb2a-7fc32097afbf}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{79e745f9-c183-46f9-9127-59a7576f7a1a}">
-		<property name="isPersistent">
-			<value>true</value>
-		</property>
-		<property name="maxVoices">
-			<value>4</value>
-		</property>
-		<property name="voiceStealing">
-			<value>4</value>
+		<property name="maximumDistance">
+			<value>10</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{6414c341-355c-4456-acbb-ca92fd0aed2c}" />
@@ -86,6 +81,11 @@
 	<object class="ActionSheet" id="{13d6970c-9d70-402c-8796-09110d69636b}">
 		<relationship name="modules">
 			<destination>{d54cd16d-6224-45f2-8f43-1ec6c5fb887d}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{0d50f8e3-ccd7-4e6f-82b8-5ff4f2f89c4d}">
+		<relationship name="preset">
+			<destination>{ada37c7d-9316-4f80-9722-09b58a392b65}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{e71f5b92-11ef-43fe-bcb7-1d1bbe8e15ba}">
@@ -105,7 +105,7 @@
 			<value>5.6000000000000005</value>
 		</property>
 		<relationship name="modulators">
-			<destination>{f7fe5f6a-58a9-4b66-b167-ed893016b8fe}</destination>
+			<destination>{8f3e1aaf-aa20-4e36-a2c2-852569005435}</destination>
 		</relationship>
 		<relationship name="audioFile">
 			<destination>{e842c32b-1417-4da9-972f-1fb3b320d7a6}</destination>
@@ -138,7 +138,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{41db9949-70ed-44b8-a75d-b9863a1d7dcf}" />
-	<object class="RandomizerModulator" id="{f7fe5f6a-58a9-4b66-b167-ed893016b8fe}">
+	<object class="RandomizerModulator" id="{8f3e1aaf-aa20-4e36-a2c2-852569005435}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
 		</property>
@@ -148,5 +148,9 @@
 	</object>
 	<object class="MixerBusFader" id="{2ab11cb8-2f49-4152-8684-38b2715c7323}" />
 	<object class="MixerBusFader" id="{273c4d55-77ab-41ec-8c13-baa9eb301417}" />
-	<object class="SpatialiserEffect" id="{5d3cd50c-f3e2-485f-815a-bb4386efe31d}" />
+	<object class="SpatialiserEffect" id="{5d3cd50c-f3e2-485f-815a-bb4386efe31d}">
+		<property name="distanceRolloffType">
+			<value>3</value>
+		</property>
+	</object>
 </objects>

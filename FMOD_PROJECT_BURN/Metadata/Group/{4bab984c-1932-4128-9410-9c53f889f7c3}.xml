@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="MixerGroup" id="{4bab984c-1932-4128-9410-9c53f889f7c3}">
+		<property name="volume">
+			<value>-12</value>
+		</property>
 		<property name="name">
 			<value>Recurrent</value>
 		</property>

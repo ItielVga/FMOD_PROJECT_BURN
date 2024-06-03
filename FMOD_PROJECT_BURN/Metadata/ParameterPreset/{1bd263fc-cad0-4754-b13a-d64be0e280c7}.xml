@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{1bd263fc-cad0-4754-b13a-d64be0e280c7}">
+		<property name="name">
+			<value>BreathingPitch</value>
+		</property>
+		<relationship name="folder">
+			<destination>{95a5964e-0a86-4cec-b6ed-d9a509dd94c4}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{ada37c7d-9316-4f80-9722-09b58a392b65}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{ada37c7d-9316-4f80-9722-09b58a392b65}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

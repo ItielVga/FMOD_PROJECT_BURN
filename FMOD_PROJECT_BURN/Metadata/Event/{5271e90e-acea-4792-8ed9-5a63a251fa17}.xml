@@ -5,10 +5,10 @@
 			<value>Blue Light 1</value>
 		</property>
 		<property name="name">
-			<value>PisadasHombre</value>
+			<value>PisadasHombre Reberb</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a8a3f2a5-d1aa-4af7-9eec-20f6f9053dbf}</destination>
@@ -35,7 +35,7 @@
 			<destination>{7ae71fc1-04f4-4851-8d3b-18a2265bd172}</destination>
 		</relationship>
 		<relationship name="banks">
-			<destination>{1bdbb4c1-b2ca-472d-b07a-31cf3a948811}</destination>
+			<destination>{0ce1ea1b-600e-4714-a0fc-5da4f9dd64fd}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{61fa053e-2af5-4505-94f8-d98b682d193c}">
@@ -62,7 +62,11 @@
 			<destination>{ce037a2c-938e-495e-aad4-41de4047d01e}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{6ea9f79f-3624-4888-9db4-d8da66e9d0ef}" />
+	<object class="EventAutomatableProperties" id="{6ea9f79f-3624-4888-9db4-d8da66e9d0ef}">
+		<property name="maxVoices">
+			<value>3</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{7b38dc16-4f29-45c7-af21-a1bed52b31ce}" />
 	<object class="Timeline" id="{cec0d3b0-0a7c-46a3-bca5-26d7756a8745}">
 		<property name="isProxyEnabled">
@@ -101,6 +105,7 @@
 			<destination>{85eb5ea0-8604-4931-86f8-19e53a6a7803}</destination>
 			<destination>{b604391e-2c19-4ad6-ad7e-515ec3be6579}</destination>
 			<destination>{4f211f73-8b63-48d7-9f1a-252f9cb4bbe8}</destination>
+			<destination>{3dd3a7af-78df-4106-9f08-5bc2ecae946c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{541c49b8-2719-4286-bd54-514152b30b42}" />
@@ -141,6 +146,7 @@
 			<value>34.5</value>
 		</property>
 	</object>
+	<object class="SpatialiserEffect" id="{3dd3a7af-78df-4106-9f08-5bc2ecae946c}" />
 	<object class="SingleSound" id="{5dc43fa0-27c8-46b7-9480-d21d25fb27ec}">
 		<relationship name="audioFile">
 			<destination>{33243355-8c34-49e5-a5fa-26372187dd22}</destination>

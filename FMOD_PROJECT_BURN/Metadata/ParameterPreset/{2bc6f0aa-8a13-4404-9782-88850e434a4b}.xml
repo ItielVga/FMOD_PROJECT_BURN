@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{2bc6f0aa-8a13-4404-9782-88850e434a4b}">
+		<property name="name">
+			<value>DialRoboArt_Numero</value>
+		</property>
+		<relationship name="folder">
+			<destination>{95a5964e-0a86-4cec-b6ed-d9a509dd94c4}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{6f06cc02-7e8d-415f-884a-d49c7ebe58ac}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{6f06cc02-7e8d-415f-884a-d49c7ebe58ac}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>7</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>

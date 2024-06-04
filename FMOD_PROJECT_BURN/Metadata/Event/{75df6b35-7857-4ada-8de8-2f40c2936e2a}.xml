@@ -5,7 +5,7 @@
 			<value>Blue Light 1</value>
 		</property>
 		<property name="name">
-			<value>ArrastrarPuertaElectrica</value>
+			<value>Cofre</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -113,6 +113,9 @@
 		</property>
 		<property name="timelockedOffset">
 			<value>0.044999999999999998</value>
+		</property>
+		<property name="pitch">
+			<value>3</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{90f557a4-8871-491e-91c4-b830c543bd48}</destination>

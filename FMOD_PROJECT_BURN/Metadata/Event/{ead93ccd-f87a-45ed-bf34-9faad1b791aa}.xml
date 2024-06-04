@@ -66,6 +66,12 @@
 		<property name="maxVoices">
 			<value>3</value>
 		</property>
+		<property name="minimumDistance">
+			<value>0.5</value>
+		</property>
+		<property name="maximumDistance">
+			<value>2</value>
+		</property>
 	</object>
 	<object class="MarkerTrack" id="{14411a2f-6fdd-4766-ae3a-1e4df948ffb1}" />
 	<object class="Timeline" id="{34dfc6c3-492a-446f-9385-d1fa9e521834}">
@@ -79,6 +85,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{70c4db4f-69ec-48ca-ae5f-57e398f9a95a}">
+		<property name="volume">
+			<value>5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{c7135be8-3009-4f5e-b5f8-297f064d29f0}</destination>
 		</relationship>

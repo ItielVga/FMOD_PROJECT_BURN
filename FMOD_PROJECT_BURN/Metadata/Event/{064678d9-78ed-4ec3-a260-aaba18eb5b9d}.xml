@@ -8,7 +8,7 @@
 			<value>RobotArturito</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a307fd9b-0151-4d21-9118-581257d70e62}</destination>
@@ -63,7 +63,17 @@
 			<destination>{32086732-1ce8-4a0a-9aa1-ce1f51d2c828}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{42fca073-17ef-464e-baf8-d6bac69e3150}" />
+	<object class="EventAutomatableProperties" id="{42fca073-17ef-464e-baf8-d6bac69e3150}">
+		<property name="maxVoices">
+			<value>2</value>
+		</property>
+		<property name="maximumDistance">
+			<value>10</value>
+		</property>
+		<property name="triggerCooldown">
+			<value>500</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{dcdf724b-3c80-4265-aeb9-d7f22dd40018}" />
 	<object class="MarkerTrack" id="{e965bf4d-9c9d-4028-a68b-ca9999ab6a4f}" />
 	<object class="GroupTrack" id="{640d1cb3-1c0e-41f8-9301-ad9ed70d1142}">
@@ -394,6 +404,7 @@
 	<object class="MixerBusEffectChain" id="{3762bbe7-a651-4bc8-ba4a-f4c401d15e83}">
 		<relationship name="effects">
 			<destination>{38f86103-a09f-4df3-b1bd-a5f4b1faeff0}</destination>
+			<destination>{47b66f2e-749d-4e4a-9ad5-f250341d3b11}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e0bd59b1-f893-4a7f-a704-a9ee53f0a886}" />
@@ -471,5 +482,10 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{38f86103-a09f-4df3-b1bd-a5f4b1faeff0}" />
+	<object class="SpatialiserEffect" id="{47b66f2e-749d-4e4a-9ad5-f250341d3b11}">
+		<property name="maximumDistance">
+			<value>10</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{ffa4c330-38d9-4d6b-beed-3595b026de58}" />
 </objects>

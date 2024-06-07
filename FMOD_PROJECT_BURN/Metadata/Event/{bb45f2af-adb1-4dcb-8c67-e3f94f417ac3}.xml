@@ -72,6 +72,9 @@
 		<property name="maximumDistance">
 			<value>3.5</value>
 		</property>
+		<property name="triggerCooldown">
+			<value>500</value>
+		</property>
 	</object>
 	<object class="MarkerTrack" id="{73a1f547-4b92-4958-a37d-f554eefbd959}" />
 	<object class="Timeline" id="{d0adf5ea-0e6b-4587-9834-58d6db77ddd0}">
@@ -123,5 +126,12 @@
 	</object>
 	<object class="MixerBusFader" id="{5ccc8adc-6484-461e-bda4-f9b7f050116e}" />
 	<object class="MixerBusFader" id="{69a6f139-051e-4c84-a962-9999c8c59971}" />
-	<object class="SpatialiserEffect" id="{d26101b5-5efc-4a94-922e-2443d218b4fb}" />
+	<object class="SpatialiserEffect" id="{d26101b5-5efc-4a94-922e-2443d218b4fb}">
+		<property name="minimumDistance">
+			<value>0.5</value>
+		</property>
+		<property name="maximumDistance">
+			<value>3.5</value>
+		</property>
+	</object>
 </objects>

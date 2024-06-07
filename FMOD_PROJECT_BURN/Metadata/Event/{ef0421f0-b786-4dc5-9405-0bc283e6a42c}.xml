@@ -93,6 +93,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{883464bd-0ac0-4074-9235-21459b492998}">
+		<property name="volume">
+			<value>5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{58e47f97-42a8-45f6-805c-e3ec72d04301}</destination>
 		</relationship>
@@ -166,7 +169,14 @@
 			<value>29</value>
 		</property>
 	</object>
-	<object class="SpatialiserEffect" id="{12316a49-0332-43f5-b251-4cc3503ce997}" />
+	<object class="SpatialiserEffect" id="{12316a49-0332-43f5-b251-4cc3503ce997}">
+		<property name="minimumDistance">
+			<value>0.5</value>
+		</property>
+		<property name="maximumDistance">
+			<value>2</value>
+		</property>
+	</object>
 	<object class="RandomizerModulator" id="{701c2cec-4d47-4bff-a4ab-9c599227df67}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
